@@ -1,15 +1,16 @@
-# MH-Miner
+# MH Miner
 
-Экспериментальный демо-майнер Pearl (PRL) для NVIDIA. Комиссия разработчика: 1%. Майнер будет развиваться.
+Pearl (PRL) GPU miner for NVIDIA RTX 30/40/50 — Windows and HiveOS.
 
-## Демо 0.1.0-demo3
+**Latest:** [MH Miner 0.1.0 Demo 1](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/tag/v0.1.0-demo1)
 
-- [Windows x64](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/download/v0.1.0-demo3/MH-Miner-0.1.0-demo3-windows-x64.zip)
-- [Linux x64](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/download/v0.1.0-demo3/MH-Miner-0.1.0-demo3-linux-x64.tar.gz)
-- [HiveOS Custom Miner](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/download/v0.1.0-demo3/mhminer-0.1.0_demo3.tar.gz)
-- [Шаблон HiveOS Kryptex](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/download/v0.1.0-demo3/HiveOS-Kryptex-MH-Miner.json)
-- [SHA256SUMS](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/download/v0.1.0-demo3/SHA256SUMS)
+- Optimized for **RTX 30 series**; RTX 40/50 supported, not yet optimized
+- Amber Cockpit panel (EN/RU), HiveOS dashboard statistics
+- Protected build, disclosed developer fee **1%**
 
-По умолчанию используются все доступные совместимые GPU; возможен выбор отдельных карт. Windows: распакуйте архив и запустите BAT нужного пула. Адрес уже заполнен, его можно заменить своим. HiveOS: Custom Miner mhminer, алгоритм pearlhash, архив по ссылке выше. Остановка Ctrl+C.
+Windows: unpack the zip, set your wallet in `config.json`, run `start.cmd`.
+HiveOS: Custom miner, installation URL = the `mhminer-0.1.0_demo1-hiveos.tar.gz` link from the release, algorithm `pearlhash`, pool `prl.kryptex.network:7048`.
 
-Требуются совместимый драйвер NVIDIA и для Windows Microsoft Visual C++ x64 Runtime. Подробности и ограничения — README-demo.txt и VALIDATION.txt в архиве. Статистика и временный учёт комиссии находятся в RAM; после перезагрузки состояние не сохраняется. Исходники остаются приватными.
+Experimental demo: hashrate and payouts are not guaranteed.
+
+Channel: https://t.me/Pr0_Crypto_Mining · Chat: https://t.me/Pr0_Crypto_Mining_chat
