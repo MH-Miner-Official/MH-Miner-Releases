@@ -1,16 +1,47 @@
-# MH Miner
+# MH-Miner
 
-Pearl (PRL) GPU miner for NVIDIA RTX 30/40/50 — Windows and HiveOS.
+GPU miner for **Pearl (PRL)** and **Quantus (QTC)**.
 
-**Latest:** [MH Miner 0.1.0 Demo 1](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/tag/v0.1.0-demo1)
+- Support for NVIDIA RTX 20/30/40/50.
+- Available for Windows, Linux and HiveOS.
+- Optimized CUDA kernels and energy-efficient modes.
+- Console interface in English and Russian.
+- Built-in Linux agent: monitoring and miner console in the dashboard, with controls through the Telegram bot.
+- Developer fee: **1%**.
 
-- Optimized for **RTX 30 series**; RTX 40/50 supported, not yet optimized
-- Amber Cockpit panel (EN/RU), HiveOS dashboard statistics
-- Protected build, disclosed developer fee **1%**
+## Downloads and setup
 
-Windows: unpack the zip, set your wallet in `config.json`, run `start.cmd`.
-HiveOS: Custom miner, installation URL = the `mhminer-0.1.0_demo1-hiveos.tar.gz` link from the release, algorithm `pearlhash`, pool `prl.kryptex.network:7048`.
+[Latest release on GitHub](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/latest) · [Getting started](https://mhminer.ru/#quick)
 
-Experimental demo: hashrate and payouts are not guaranteed.
+## Links
 
-Channel: https://t.me/Pr0_Crypto_Mining · Chat: https://t.me/Pr0_Crypto_Mining_chat
+[Website](https://mhminer.ru) · [Dashboard](https://mhminer.ru/app/) · [Telegram bot](https://t.me/Crypto_MinerHub_bot)
+
+[Channel](https://t.me/Pr0_Crypto_Mining) · [Support chat](https://t.me/Pr0_Crypto_Mining_chat)
+
+If the main website is unavailable: [website mirror](https://ru.mhminer.ru) · [dashboard mirror](https://ru.mhminer.ru/app/).
+
+---
+
+## Русский
+
+GPU-майнер для **Pearl (PRL)** и **Quantus (QTC)**.
+
+- Поддержка NVIDIA RTX 20/30/40/50.
+- Версии для Windows, Linux и HiveOS.
+- Оптимизированные CUDA-ядра и режимы энергоэффективности.
+- Консольный интерфейс на русском и английском.
+- Встроенный агент Linux: мониторинг и консоль в личном кабинете, управление через Telegram-бота.
+- Комиссия разработчика — **1%**.
+
+### Загрузка и настройка
+
+[Последняя версия на GitHub](https://github.com/MH-Miner-Official/MH-Miner-Releases/releases/latest) · [Инструкции по запуску](https://mhminer.ru/#quick)
+
+### Ссылки
+
+[Сайт](https://mhminer.ru) · [Личный кабинет](https://mhminer.ru/app/) · [Telegram-бот](https://t.me/Crypto_MinerHub_bot)
+
+[Канал](https://t.me/Pr0_Crypto_Mining) · [Чат поддержки](https://t.me/Pr0_Crypto_Mining_chat)
+
+Если основной сайт не открывается: [зеркало сайта](https://ru.mhminer.ru) · [зеркало кабинета](https://ru.mhminer.ru/app/).
